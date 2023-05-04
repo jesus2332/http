@@ -1,20 +1,28 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Hola mi primera Página web</title>
+    
+
 </head>
 
 <body>
 
-    <h1>Hola mi primera pagina desde el body</h1>
-    <p>Hola a  mi <i>primera </i> <b>pagina</b>  desde el <u>contenido</u> 
-    <a href="/about.htmnl">Ir a about</a> <a href="https://www.google.com" target="_blank"> ir a google</a></p>
-    <p> <a href="/registros.html">Ir al login</a></p>
+    <div>
+        <h1 id="titulo-principal">Hola mi primera pagina desde el body</h1>
+        <p>Hola a  mi <i>primera </i> <b>pagina</b>  desde el <u>contenido</u> 
+        <a id="link-about" href="/about.html">Ir a about</a> <a class="link" href="https://www.google.com" target="_blank"> ir a google</a></p>
+        <p> <a class="link" href="/registros.html">Ir al login</a> </p>
+        <img src="img/it.jpg" alt="Imagen del cover de it">
+    </div>
     
+
+    <marquee >
+    <p id="parrafo-importante">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magni delectus perferendis, officiis eaque fugit illum, quos placeat laudantium suscipit esse deleniti ipsum? Veritatis facilis vitae repellendus fuga obcaecati itaque?</p>
     
+    </marquee>
    
 
     <ul>
@@ -63,11 +71,17 @@
             
     </table>
 
+    <label for="password">Contraseña</label>
+    <input type="password"  id="password">
+    <a id="show" href="#"  >Show password</a> 
+    <a id="hide" href="#">Hide password</a>
 
 
 
 
-
+    
+    <script type="text/javascript" src="/js/main.js"></script>
 </body>
 
 </html>
+

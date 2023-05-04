@@ -1,0 +1,28 @@
+p {
+    font-size: large;
+    color:blue;
+}
+
+img{
+    
+    border-style: dashed;
+    border-radius: 30%;
+    border-color: red;
+}
+
+#link-about{
+    color: red;
+    border-style: dotted;
+}
+.link{
+    color: black;
+}
+
+#parrafo-importante{
+    border-style: solid;
+    padding-bottom: 200px;
+    padding-left:80px;
+    padding-right: 40px;
+    padding-top: 400px;
+    margin-bottom: 200px;
+}

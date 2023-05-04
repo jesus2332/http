@@ -4,6 +4,10 @@
 
 # Desarollo basado en plataformas
 
+
+# Descripcion
+Pequeña muestra de una pagina web creada con html, css y javascript, utiliza node.js para lanzar el servidor local en el puerto 4444.
+
 # Requisitos
 Tener node instalado
 
